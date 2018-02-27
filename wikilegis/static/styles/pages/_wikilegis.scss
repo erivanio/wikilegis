@@ -111,6 +111,13 @@
     background: transparent;
     color: $color-gray-95;
   }
+
+  .banner__link {
+    font-size: 1.2em;
+    pointer-events: all;
+    background: transparent;
+    color: $color-accent;
+  }
 }
 
 .wikilegis__bill-list {
