@@ -28,3 +28,5 @@ urlpatterns = [
 
 if settings.FORCE_SCRIPT_NAME and settings.DEBUG:
     urlpatterns += static('/static/', document_root=settings.STATIC_ROOT)
+
+admin.site.site_header = 'Wikilegis'
